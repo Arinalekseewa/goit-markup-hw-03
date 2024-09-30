@@ -28,18 +28,7 @@ img {
 
 .container {
     max-width: 1440px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 156px;
-    margin-right: 156px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
 }
 
 /* Header */
@@ -49,6 +38,8 @@ ul {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-main {
@@ -64,10 +55,12 @@ border-bottom: 1px solid #e7e9fc;
 
 .contact-item {
     gap: 40px;
+    padding-left: 0;
 }
 
 .nav-link {
     gap: 40px;
+    margin: 24px 0;
 }
 
 .logo {  
@@ -136,6 +129,10 @@ border-bottom: 1px solid #e7e9fc;
 
 /* Effective solutions */
 
+.solutions .container {
+    display: inline-block;
+    padding: 188px 0;
+}
 .solutions {
     background-color: #2e2f42;
     text-align: center;
@@ -148,6 +145,7 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
+    padding-bottom: 48px;
 }
 
 .button {
@@ -160,6 +158,8 @@ border-bottom: 1px solid #e7e9fc;
     cursor: pointer;
     border: none;
     background-color: #4d5ae5;
+    padding: 16px 32px;
+    border-radius: 4px;
 }
 
 .button:hover {
