@@ -29,21 +29,21 @@ img {
 .container {
     max-width: 1440px;
     display: flex;
-}
-
-/* Header */
-
-.header-main .container {
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     align-items: center;
-    justify-content: space-between;
 }
+
+/* Header */
 
 .header-main {
 border-bottom: 1px solid #e7e9fc;
+}
+
+.header-main .container {
+    justify-content: space-between;
 }
 
 .nav-container,
@@ -130,12 +130,12 @@ border-bottom: 1px solid #e7e9fc;
 /* Effective solutions */
 
 .solutions .container {
-    display: inline-block;
-    padding: 188px 0;
+    display: block;
 }
+
 .solutions {
     background-color: #2e2f42;
-    text-align: center;
+    padding: 188px 0;
 }
 
 .main-page-title {
@@ -143,9 +143,11 @@ border-bottom: 1px solid #e7e9fc;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #ffffff;
     padding-bottom: 48px;
+    max-width: 496px;
+    text-align: center;
+    margin: auto;
 }
 
 .button {
@@ -160,6 +162,9 @@ border-bottom: 1px solid #e7e9fc;
     background-color: #4d5ae5;
     padding: 16px 32px;
     border-radius: 4px;
+    display: block; 
+    min-width: 169px;
+    margin: auto;
 }
 
 .button:hover {
@@ -172,19 +177,42 @@ border-bottom: 1px solid #e7e9fc;
 
 /* Our advantages */
 
-.advantages {
-    background-color: #FFFFFF;
+.advantages h2 {
+    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
 }
 
-.advantages-list-title {
+.advantages {
+    background-color: #FFFFFF;
+    padding: 120px 0;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-item {
+    width: calc((100%-72px)/4);
+}
+
+.advantages-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
-.advantages-list {
+.advantages-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -194,8 +222,13 @@ border-bottom: 1px solid #e7e9fc;
 
 /* Our Team */
 
+.our-team .container {
+    display: block;
+}
+
 .our-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-list-title {
@@ -205,6 +238,7 @@ border-bottom: 1px solid #e7e9fc;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-list-info {
@@ -218,6 +252,9 @@ border-bottom: 1px solid #e7e9fc;
 
 .team-list {
     background: #fff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
@@ -228,6 +265,18 @@ border-bottom: 1px solid #e7e9fc;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.our-team-item {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.team-list-name {
+    padding: 32px 0;
 }
 
 
@@ -235,6 +284,11 @@ border-bottom: 1px solid #e7e9fc;
 
 .our-portfolio {
     background-color: #FFFFFF;
+    padding: 120px 0;
+}
+
+.our-portfolio .container {
+    display: block;
 }
 
 .our-portfolio-title {
@@ -245,10 +299,11 @@ border-bottom: 1px solid #e7e9fc;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.portfolio-conteiner li {
-    border: 1px solid #e7e9fc;
+.portfolio-list {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-items-title {
@@ -257,6 +312,7 @@ border-bottom: 1px solid #e7e9fc;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .portfolio-items-info {
@@ -267,10 +323,36 @@ border-bottom: 1px solid #e7e9fc;
     color: #434455;
 }
 
+.portfolio-items {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-list-cont {
+    padding: 32px 16px;
+    border-top: none;
+    border: 1px solid #e7e9fc;
+}
+
 /* Footer */
 
 .footer-cont {
     background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-cont .container {
+    display: block;
+}
+
+.footer-cont .logo,
+.footer-cont .logo-span {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-cont .logo {
@@ -294,4 +376,5 @@ border-bottom: 1px solid #e7e9fc;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px
 }
