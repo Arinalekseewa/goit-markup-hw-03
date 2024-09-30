@@ -4,6 +4,10 @@ body {
     background-color: #ffffff;
 }
 
+h1, h2, h3, p {
+    margin: 0;
+}
+
 .link {
     text-decoration: none;
     color: #2E2F42;
@@ -18,7 +22,46 @@ li {
     list-style-type: none;
 }
 
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 156px;
+    margin-right: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
 /* Header */
+
+nav,
+.nav-link,
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.nav-link li:not(:first-child),
+.contact-item li:not(:first-child) {
+    padding-left: 40px;
+}
+
 
 .logo {  
     text-decoration: none;

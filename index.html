@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -16,6 +17,7 @@
 <body>
 
     <header>
+        <div class="container">
         <nav>
             <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
             <ul class="nav-link">
@@ -25,7 +27,7 @@
             </ul>
         </nav>
          <address class="contact-info"> 
-            <ul>
+            <ul class="contact-item">
              <li>
                 <a href="mailto:info@devstudio.com" id="mail" class="contact">info@devstudio.com</a>
              </li>  
@@ -34,15 +36,19 @@
              </li>
             </ul>
         </address>
+        </div>
     </header>
     <main>
         <!-- Effective solutions -->
         <section class="solutions">
+            <div class="container">
             <h1 class="main-page-title">Effective Solutions<br/> for Your Business</h1>
             <button type="button" class="button">Order Service</button>
+            </div>
         </section>
         <!-- Our advantages -->
         <section class="advantages">
+            <div class="container">
             <h2 hidden>Our advantages</h2>
             <ul>
                 <li>
@@ -63,9 +69,11 @@
                     <p class="advantages-list">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- Our Team -->
         <section class="our-team">
+            <div class="container">
             <h2 class="team-title">Our Team</h2>
             <ul>
                 <li class="team-list">
@@ -89,9 +97,11 @@
                     <p class="team-list-info">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- Our portfolio -->
          <section class="our-portfolio">
+            <div class="container">
             <h2 class="our-portfolio-title">Our Portfolio</h2>
             <ul class="portfolio-items">
                 <li>
@@ -125,13 +135,16 @@
                     <P class="portfolio-items-info">Marketing</P>
                 </li>
         </ul>
+        </div>
          </section>
     </main>
     <footer class="footer-cont">
+        <div class="container">
         <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
         <p class="footer-info">Increase the flow of customers and<br/>
           sales for your business with digital<br/>
           marketing & growth solutions.</p>
+        </div>
     </footer>
 </body>
 </html>
