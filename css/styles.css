@@ -1,0 +1,245 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color:#434455;
+    background-color: #ffffff;
+}
+
+.link {
+    text-decoration: none;
+    color: #2E2F42;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Header */
+
+.logo {  
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-span {
+    color: #2E2F42;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.link:hover {
+    color: #404BBF;
+}
+
+.link:active {
+    color: #404BBF;
+}
+
+.link:focus {
+    color: #404BBF;
+}
+
+.contact-info {
+    font-style: normal;
+}
+
+.contact {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.contact:hover {
+    color: #404BBF;
+}
+
+.contact:focus {
+    color: #404BBF;
+}
+
+/* Effective solutions */
+
+.solutions {
+    background-color: #2e2f42;
+    text-align: center;
+}
+
+.main-page-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    background-color: #4d5ae5;
+}
+
+.button:hover {
+    background: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
+}
+
+/* Our advantages */
+
+.advantages {
+    background-color: #FFFFFF;
+}
+
+.advantages-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.advantages-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Our Team */
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+.team-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.team-list-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+.team-list {
+    background: #fff;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+
+/* Our portfolio */
+
+.our-portfolio {
+    background-color: #FFFFFF;
+}
+
+.our-portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-conteiner li {
+    border: 1px solid #e7e9fc;
+}
+
+.portfolio-items-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-items-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Footer */
+
+.footer-cont {
+    background-color: #2e2f42;
+}
+
+.footer-cont .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-cont .logo-span {
+    color: #f4f4fd;
+}
+
+.footer-info {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
